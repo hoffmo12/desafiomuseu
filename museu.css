@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #dddacc;
+
+}
+
+#area-cabecalho{
+    position: relative;
+    background-color: rgb(44, 36, 24);
+        padding-bottom: 80px;
+        text-align: left; 
+        display: inline-block;
+        width: 1865px;
+
+}
+#area-logo {
+    padding: 15px;
+    float: left;
+    border-left: 200px solid transparent; 
+    margin-top: 20px;
+}
+
+#depoimento{
+    float: right;
+}
+
+
+.titulo-container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; 
+}
+
+.titulo-container h2 {
+    margin: 0; 
+}
+
+
+#area-menu {
+    padding: 10px;
+    text-align: right;
+    border-right: 550px solid transparent; 
+    margin-top: 30px;
+    
+
+}
+#area-principal{
+    width: 1150px;
+    padding: 0px;
+    position: relative;
+    margin-top: -122px;
+    
+    
+
+}
+
+#foto-museu{
+    float: left;
+   
+}
+#foto-lado{
+    float: right;
+
+}
+#area-postagens {
+    border-left: 150px solid transparent; 
+}
+
+.postagem{
+    padding: 60px;
+    margin-bottom: 40px;    
+  
+}
+
+#area-lateral {
+    width: 215px;
+    float: right;
+    border-right: 350px solid transparent; 
+    position: relative;
+    margin-top: -75px;
+}
+#area-mapa {
+    width: 215px;
+    float: right; 
+    border-right: 200px solid transparent; 
+    position: relative;
+    margin-top: 0px;
+}
+#mapa-escrita {
+    width: 215px;
+    float: right; 
+    border-right: 50px solid transparent; 
+    position: relative;
+    margin-top: 0px;
+}
+
+.conteudo-mapa{
+    padding: 10px;
+    border-bottom: 1px dotted #ebe4ec;
+}
+.retangulo-frase {
+    margin: 0;
+    color: #d4d2cf;
+    position: relative; 
+    padding: 10px; 
+    top: -60px;
+    left: 40px;
+    white-space: nowrap; /* Evita quebra de linha */
+}
+
+.retangulo-frase-2 {
+    margin: 0;
+    color: #553d11;
+    position: relative; 
+    padding: 10px; 
+    top: 20px; 
+}
+
+.retangulo-interno-frase {
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff; 
+    position: relative; 
+    top: 0px; 
+    left: 30px; 
+    z-index: 1; 
+}
+
+.espaco2-retangular.segundo-retangulo-frase {
+    width: 350px; 
+    height: 500px; 
+    margin-top: 0; 
+    margin-bottom: 100px; 
+    position: relative; 
+    left: -10px; 
+    top: -50px;
+}
+
+.espaco1-retangular.primeiro-retangulo h3 {
+    margin: 0;
+    color: #553d11;
+    position: relative; 
+    padding: 10px; 
+    top: 5px; 
+}
+
+.espaco1-retangular {
+    width: 350px; 
+    height: 190px; 
+    margin-top: 20px;
+    margin-bottom: 0; 
+    position: relative; 
+    left: -10px; 
+}
+
+.espaco2-retangular {
+    width: 350px; 
+    height: 500px; 
+    margin-top: 0; 
+    margin-bottom: 100px; 
+    position: relative; 
+    left: -10px; 
+    top: -50px;
+}
+
+
+.primeiro-retangulo {
+    background-color: #9c9787; 
+}
+
+
+.segundo-retangulo {
+    background-color: #bdb9a9; 
+    margin-top: 0; 
+}
+.retangulo-interno {
+    width: 270px;
+    height: 40px;
+    background-color: #38362a; 
+    position: relative; 
+    top: 20px; 
+    left: 35px; 
+    z-index: 1; 
+}
+
+
+
+li{
+    color: #b38229;
+
+
+}
+li a {
+    font-weight: bold;
+}
+
+
+.conteudo-lateral{
+    padding: 10px;
+    border-bottom: 1px dotted #ebe4ec;
+}
+footer {
+    text-align: center;
+}
+
+.links-rodape {
+    margin-bottom: 10px;
+}
+
+.links-rodape a {
+    margin: 0 10px;
+}
+
+.rodape-container {
+    position: relative;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.links-rodape a {
+    margin: 20px 10px; 
+}
+
+.copyright {
+    text-align: center; 
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+}
+
+
+.links-rodape a {
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #b38229;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #e6bc35;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+    color: rgb(48, 32, 9);
+    background-color: #f5f2f2;
+    text-decoration: none;
+}
+
+h1{
+    color: #254620;
+    font-size: 30px;
+
+}
+
+
+h3{
+    color: #254620;
+
+}
+h2{
+    color: #254620;
+
+}
+.branco {
+    color: #ffffff; 
+    padding: 10px; 
+    position: absolute; 
+    top: 5px;
+    left: 25px; 
+}
+
+.retangulo-interno h4.branco {
+    color: #ffffff; 
+}
+@media screen and (min-width: 2560px) {
+    #area-menu {
+        padding: 20px;
+    }
+    #area-cabecalho {
+        width: 90%;
+    }
+    .espaco1-retangular {
+        width: 45%;
+    }
+    .espaco2-retangular {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    #area-menu {
+        padding: 10px;
+    }
+    #area-cabecalho {
+        width: 80%;
+    }
+    .espaco1-retangular {
+        width: 50%;
+    }
+    .espaco2-retangular {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1024px) {
+   
+    #area-menu {
+        padding: 5px;
+    }
+    #area-cabecalho {
+        width: 90%;
+    }
+    .espaco1-retangular {
+        width: 70%;
+    }
+    .espaco2-retangular {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1200px) {
+   
+    #area-menu {
+        padding: 5px;
+    }
+    #area-cabecalho {
+        width: 90%;
+    }
+    .espaco1-retangular {
+        width: 70%;
+    }
+    .espaco2-retangular {
+        width: 70%;
+    }
+}
